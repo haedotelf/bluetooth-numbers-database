@@ -698,4 +698,21 @@
     { "name": "MDS Device Data URI Characteristic", "identifier": "com.memfault.characteristic.mds.data_uri", "uuid": "54220003-F6A5-4007-A371-722F4EBD8436", "source": "memfault" },
     { "name": "MDS Device Authorization Characteristic", "identifier": "com.memfault.characteristic.mds.authorization", "uuid": "54220004-F6A5-4007-A371-722F4EBD8436", "source": "memfault" },
     { "name": "MDS Device Data Export Characteristic", "identifier": "com.memfault.characteristic.mds.data_export", "uuid": "54220005-F6A5-4007-A371-722F4EBD8436", "source": "memfault" }
+
+//
+    
+    { "name": "Thingy:53 Sensor Hub Service", "identifier": "com.nordicsemi.service.thingy53_sensor_hub", "uuid": "A5B46352-9D13-479F-9FCB-3DCDF0A13F4D" , "source": "nordic"},
+    { "name": "Thingy:53 Sensor Hub Temp", "identifier": "com.nordicsemi.service.thingy53_temp", "uuid": "506A55C4-B5E7-46FA-8326-8ACAEB1189EB" , "source": "nordic"},
+    { "name": "Thingy:53 Sensor Hub Pressure", "identifier": "com.nordicsemi.service.thingy53_pressure", "uuid": "51838AFF-2D9A-B32A-B32A-8187E41664BA" , "source": "nordic"},
+    { "name": "Thingy:53 Sensor Hub Humidity", "identifier": "com.nordicsemi.service.thingy53_humidity", "uuid": "753E3050-DF06-49334B53-B090-5E1D810C4383" , "source": "nordic"},
+    { "name": "Thingy:53 Sensor Hub Red Color", "identifier": "com.nordicsemi.service.thingy53_red_color", "uuid": "82754BBB-6ED3-4D69-A0E1-F19F6B654EC2"  , "source": "nordic"},
+    { "name": "Thingy:53 Sensor Hub Green Color", "identifier": "com.nordicsemi.service.thingy53_green_color", "uuid": "DB7F9F36-92CE-4509-A2EF-AF72BA38FB48" , "source": "nordic"},
+    { "name": "Thingy:53 Sensor Hub Blue Color", "identifier": "com.nordicsemi.service.thingy53_blue_color", "uuid": "F5D2EAB5-41E8-4F7C-AEF7-C9FFF4C544C0" , "source": "nordic"},
+    { "name": "Thingy:53 Sensor Hub Battery Voltage", "identifier": "com.nordicsemi.service.thingy53_battery_voltage", "uuid": "FA3CF070-D0C7-4668-96C4-86125C8AC5DF" , "source": "nordic"},
+    { "name": "Thingy:53 Sensor Hub IAQ", "identifier": "com.nordicsemi.service.thingy53_iaq", "uuid": "AD79CBCE-65DF-4BC6-BDD4-8CE2B6B75C59" , "source": "nordic"},
+
+//
+    { "name": "Thingy:53 Sensor Hub IAQ", "identifier": "com.nordicsemi.service.thingy53_iaq", "uuid": "AD79CBCE-65DF-4BC6-BDD4-8CE2B6B75C59" , "source": "nordic"},
+
+
 ]
