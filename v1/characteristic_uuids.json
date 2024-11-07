@@ -712,7 +712,78 @@
     { "name": "Thingy:53 Sensor Hub IAQ", "identifier": "com.nordicsemi.service.thingy53_iaq", "uuid": "AD79CBCE-65DF-4BC6-BDD4-8CE2B6B75C59" , "source": "nordic"},
 
 //
-    { "name": "Thingy:53 Sensor Hub IAQ", "identifier": "com.nordicsemi.service.thingy53_iaq", "uuid": "AD79CBCE-65DF-4BC6-BDD4-8CE2B6B75C59" , "source": "nordic"},
+    { "name": "Heart Rate", "identifier": "com.nordicsemi.service.thingy53_sensor_hub", "uuid": "180D" , "source": "nordic"},
 
+    
 
 ]
+
+
+additional
+{
+    "_comment": {
+        "comment": [
+            "Add UUIDs for your services, characteristics, and descriptors in this file.",
+            "The format is the UUID of the item, followed by an object containing the data.",
+            "'name' is a mandatory handle, while 'format' is optional.",
+            "Currently the only supported format is 'TEXT', default is 'NO_FORMAT'.",
+            "The application must be reloaded to access changes in this file."
+        ]
+    },
+    "uuid16bitServiceDefinitions": {
+        "180D": {
+            "name": "Heart Rate"
+        }
+    },
+    "uuid16bitCharacteristicDefinitions": {
+        "2A37": {
+            "name": "Heart Rate Measurement"
+        },
+        "2A29": {
+            "name": "Manufacturer Name String",
+            "format": "TEXT"
+        }
+    },
+    "uuid16bitDescriptorDefinitions": {},
+    "uuid128bitServiceDefinitions": {
+        "6E400001B5A3F393E0A9E50E24DCCA9E": {
+            "name": "UART over BLE"
+        },
+        "A5B463529D13479F9FCB3DCDF0A13F4D": {
+            "name": "Thingy:53 Sensor Hub"
+        }
+    },
+    "uuid128bitCharacteristicDefinitions": {
+        "6E400002B5A3F393E0A9E50E24DCCA9E": {
+            "name": "UART RX"
+        },
+        "6E400003B5A3F393E0A9E50E24DCCA9E": {
+            "name": "UART TX"
+        },
+        "506A55C4B5E746FA83268ACAEB1189EB": {
+            "name": "Temperature"
+        },
+        "51838AFF2D9AB32AB32A8187E41664BA": {
+            "name": "Pressure"
+        },
+        "753E3050DF064B53B0905E1D810C4383": {
+            "name": "Humidity"
+        },
+        "82754BBB6ED34D69A0E1F19F6B654EC2": {
+            "name": "Red Value"
+        },
+        "DB7F9F3692CE4509A2EFAF72BA38FB48": {
+            "name": "Green Value"
+        },
+        "F5D2EAB541E84F7CAEF7C9FFF4C544C0": {
+            "name": "Blue Value"
+        },
+        "FA3CF070D0C7466896C486125C8AC5DF": {
+            "name": "Battery mV"
+        },
+        "AD79CBCE65DF4BC6BDD48CE2B6B75C59": {
+            "name": "IAQ"
+        }
+    },
+    "uuid128bitDescriptorDefinitions": {}
+}
